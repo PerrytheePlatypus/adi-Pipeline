@@ -5,11 +5,29 @@
 		"factoryName": {
 			"value": "adi-jan-demo-3123123"
 		},
+		"AdventureCustomerjson_password": {
+			"value": ""
+		},
 		"AdventureWorksDb_password": {
 			"value": ""
 		},
 		"AzureBlobStoProductadi_connectionString": {
 			"value": ""
+		},
+		"AzureBlobStorage1blobjson_connectionString": {
+			"value": ""
+		},
+		"advanceafujson_connectionString": {
+			"value": ""
+		},
+		"AdventureCustomerjson_properties_typeProperties_server": {
+			"value": "adityaja.database.windows.net"
+		},
+		"AdventureCustomerjson_properties_typeProperties_database": {
+			"value": "ADITYAsqljang"
+		},
+		"AdventureCustomerjson_properties_typeProperties_userName": {
+			"value": "AdityaJangid"
 		},
 		"AdventureWorksDb_properties_typeProperties_server": {
 			"value": "adityaja.database.windows.net"
