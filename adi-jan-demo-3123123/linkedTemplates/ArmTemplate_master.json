@@ -7,6 +7,26 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adi-jan-demo-3123123"
 		},
+		"AdventureWorksDb_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AdventureWorksDb'"
+		},
+		"AzureBlobStoProductadi_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStoProductadi'"
+		},
+		"AdventureWorksDb_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "adityaja.database.windows.net"
+		},
+		"AdventureWorksDb_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "ADITYAsqljang"
+		},
+		"AdventureWorksDb_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "AdityaJangid"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +53,21 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AdventureWorksDb_password": {
+						"value": "[parameters('AdventureWorksDb_password')]"
+					},
+					"AzureBlobStoProductadi_connectionString": {
+						"value": "[parameters('AzureBlobStoProductadi_connectionString')]"
+					},
+					"AdventureWorksDb_properties_typeProperties_server": {
+						"value": "[parameters('AdventureWorksDb_properties_typeProperties_server')]"
+					},
+					"AdventureWorksDb_properties_typeProperties_database": {
+						"value": "[parameters('AdventureWorksDb_properties_typeProperties_database')]"
+					},
+					"AdventureWorksDb_properties_typeProperties_userName": {
+						"value": "[parameters('AdventureWorksDb_properties_typeProperties_userName')]"
 					}
 				}
 			},

@@ -4,6 +4,21 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adi-jan-demo-3123123"
+		},
+		"AdventureWorksDb_password": {
+			"value": ""
+		},
+		"AzureBlobStoProductadi_connectionString": {
+			"value": ""
+		},
+		"AdventureWorksDb_properties_typeProperties_server": {
+			"value": "adityaja.database.windows.net"
+		},
+		"AdventureWorksDb_properties_typeProperties_database": {
+			"value": "ADITYAsqljang"
+		},
+		"AdventureWorksDb_properties_typeProperties_userName": {
+			"value": "AdityaJangid"
 		}
 	}
 }
